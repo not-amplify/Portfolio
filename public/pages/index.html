@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <script src="https://kit.fontawesome.com/32abd502cd.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      #sidenav {
+         opacity: 1;
+         visibility: visible;
+         transition: opacity 0.5s ease-in-out;
+         margin-bottom: 20px;
+      }
+
+      body {
+         overflow-x: hidden;
+         overflow-y: hidden;
+      }
+
+      #sidenav.fadeOut {
+         opacity: 0;
+         transition: opacity 0.5s ease-in-out;
+      }
+
+      /* Bounce In */
+      .hvr-bounce-in {
+         display: inline-block;
+         vertical-align: middle;
+         -webkit-transform: perspective(1px) translateZ(0);
+         transform: perspective(1px) translateZ(0);
+         box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+         -webkit-transition-duration: 0.5s;
+         transition-duration: 0.5s;
+      }
+
+      .hvr-bounce-in:hover,
+      .hvr-bounce-in:focus,
+      .hvr-bounce-in:active {
+         -webkit-transform: scale(1.2);
+         transform: scale(1.2);
+         -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+         transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      }
+   </style>
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTB52505RS"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-JTB52505RS');
+   </script>
+   <script async src="https://arc.io/widget.min.js#d9LnRHnx"></script>
+
+   <script src="./scripts/jquery-3.7.1.js"></script>
+   <link rel="stylesheet" id="themecss" href="">
+   <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/favicon.ico">
+   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/favicon.ico">
+   <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/favicon.ico">
+
+   <script type="text/javascript" src="//counter.websiteout.net/js/7/10/5/0"></script>
+   <link rel="shortcut icon" type="image/jpg" href="/images/favicon/favicon.ico" />
+   <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+
+   <link href="https://fonts.googleapis.com/css?family=Share Tech Mono" rel="stylesheet" />
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+   <script src="/uv/uv.bundle.js" defer></script>
+   <script src="/uv/uv.config.js" defer></script>
+   <script src="/dynamic/dynamic.worker.js" defer></script>
+   <script src="/dynamic/dynamic.config.js" defer></script>
+   <script src="/dip/dip.config.js" defer></script>
+   <script src="/aero/config.js" defer></script>
+   <script src="/osana/osana.bundle.js" defer></script>
+   <script src="/osana/osana.config.js" defer></script>
+
+   <div id="particles-js">
+      <div id="blob"></div>
+   </div>
+   <div class="page" id="imgsearch">
+      <title>Night</title>
+      <div id="icbuttons"
+         style="display: flex; border-radius:30px; margin-left: auto; margin-right:auto; width: 95%; height:50px; margin-top: -1.5vh; margin-bottom: 2px;">
+         <a href="/index" id="home" class="zoom" style="position:fixed;left:0;z-index:1000000000000000;" index>
+            <img src="/images/favicon/favicon.ico" alt="Logo" id="logo"
+               style="width:46px;height:46px;border-radius:10px;margin-top:10px;margin-left:10px;"></a>
+
+         <div id="clock" style="position:fixed;left:0;right:0;">
+            <p id="time"
+               style="font-weight: 900;margin: 0;margin-top: 12px;margin-left: auto;margin-right: auto;position: relative;width: 10%;">
+            </p>
+         </div>
+
+         <div style="position:fixed;right:27px;height:64px;">
+            <div id="desktopnav" style="display:flex;justify-content:flex-end;align-items:center;">
+               <a href="/night"
+                   style="width:50px;padding-right:1px;padding-left:1px;margin-right:6%;font-size:20px;white-space:nowrap;"
+                   id="apps" class="zoom navitem" apps><span class="material-symbols-outlined"
+                       style="vertical-align:-4px;font-size:20px;">&#xE51C</span></a>
+         </div>
+      </div>
+      </div>
+      <script src="/assets/js/index.js" defer></script>
+      </div>
+</body>
+
+</html>
