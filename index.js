@@ -18,15 +18,15 @@ app.use(cors());
 
 
 app.get('/', (req, res) => {
-    res.sendFile('/pages/index.html');
+    res.sendFile(__dirname + '/public/pages/index.html');
 });
 
 app.get('/index', (req, res) => {
-  res.sendFile('/pages/index.html');
+  res.sendFile(__dirname + '/public/pages/index.html');
 });
 
 app.get('/about', (req, res) => {
-  res.sendFile('/pages/about.html');
+  res.sendFile(__dirname + '/public/pages/about.html');
 });
 
 app.get('/night', (req, res) => {
